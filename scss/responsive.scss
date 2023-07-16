@@ -1,0 +1,155 @@
+
+@media (max-width: 1600px){
+    .nav_links{
+        margin-left: 10vw;
+        display: block;
+    }
+}
+
+
+@media (max-width: 1200px){
+    .nav_links{
+        margin-left: -1vw;
+        display: block;
+    }
+}
+
+@media (max-width: 1000px){
+    .nav_links{
+        margin-left: -1.5vw;
+        display: block;
+    }
+    .footer{
+        margin-left: 10vw;
+    }
+
+    .card{
+        width: 35vw;
+        margin-left: 3vw;
+    }
+
+    .left{
+        width: 45vw;
+        position: relative;
+        left: 10vw;
+    }
+    
+    .right{
+        width: 45vw;
+        position: relative;
+        left: 40vw;
+    }
+
+    .carousel_item_3{
+        display: none;
+    }
+
+    .up-left{
+        width: 33vw;
+    }
+}
+
+
+@media (max-width: 750px){
+    .menu_toggler{
+        display: block;
+        position: absolute;
+        left: 50vw;
+        top: -7vh;
+    }
+
+    .links{
+        display: none;
+    }
+    
+    .footer{
+        margin-left: 5vw;
+    }
+
+    .card_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .card{
+        width: 50vw;
+        margin-left: 25vw;
+        margin-bottom: 10vh;
+    }
+
+    .card1_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .card1{
+        width: 50vw;
+        margin-left: 25vw;
+        margin-bottom: 10vh;
+
+        img{
+            margin-left: 15vw;
+        }
+
+        h6{
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .left{
+        width: 65vw;
+        position: relative;
+        left: 20vw;
+        margin-bottom: 5vh;
+    }
+    
+    .right{
+        width: 65vw;
+        position: relative;
+        left: 20vw;
+        
+        margin-bottom: 5vh;
+    }
+}
+
+@media (max-width: 700px){
+    .carousel_item_2{
+        display: none;
+    }
+
+    .up-left{
+        width: 55vw;
+    }
+}
+
+@media (max-width: 600px){
+    .footer_tab{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width: 550px){
+    .footer{
+        margin-left: 1vw;
+    }
+
+    .card{
+        padding-left: 5vw;
+        width: 70vw;
+        margin-left: 15vw;
+        margin-bottom: 10vh;
+    }
+
+    .card1{
+        width: 90vw;
+        img{
+            margin-left: 35vw;
+        }
+    }
+}
+
